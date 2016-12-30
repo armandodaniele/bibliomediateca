@@ -21,7 +21,7 @@ Sono consentite copie/implementazioni del codice a condizione di non ocultare/ri
 </html>
 <?php
 
-include 'SLIB/CFG/ini.php';
+include 'LIB/CFG/ini.php';
 $conn = @mysql_connect($DB_host, $DB_user, $DB_pass);
 mysql_select_db($DB_name);
 
