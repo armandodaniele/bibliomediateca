@@ -1,6 +1,6 @@
 <?php
 session_start();
-include "LIB/PHP/login.php";
+include "SLIB/PHP/login.php";
 
 if(isset($_SESSION['profilo'])){
 	$tipoUtenteTmp = "" . $_SESSION['profilo'];
