@@ -1,5 +1,5 @@
 <?php
-	include 'LIB/CFG/ini.php';
+	include 'SLIB/CFG/ini.php';
 		if(!isset($_POST['username'])){
 			unset($_SESSION['classe'] );
 			unset($_SESSION['profilo']) ;
