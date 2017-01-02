@@ -47,4 +47,16 @@ $result = mysql_query($queryCampiTmp) ;
 			$_SESSION['user'] = $row['username'];
 			
 		}
+		
+		if(isset($_SESSION['profilo'])){
+			$tipoUtenteTmp = "" . $_SESSION['profilo'];
+			echo "<html><body><form action='' method='post' >";
+			echo "<input style='width:100px' type='submit' name='LogOut' value='LogOut' align='center' ></form>";
+		}else{
+			echo "<html><body><form action='' method='post' >";
+			echo "Username:<br><input type='text' name='username' size=12 ></input><br>";
+			echo "Password:<br><input type='password' name='password' size=12 /><br>";
+			echo "<input style='width:100px' type='submit' name='login' value='Login' align='center' ><br></form>";
+		}
+		
 ?>
