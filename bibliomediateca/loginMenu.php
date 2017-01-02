@@ -1,6 +1,8 @@
 <?php
 session_start();
+
 include "LIB/PHP/F_LOGIN.php";
+
 
 
 // controlla accesso
